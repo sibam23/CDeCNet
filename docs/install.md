@@ -58,8 +58,8 @@ for better compatibility with our repo.)
 
 ```shell
 pip install -r requirements/build.txt
-pip install "git+https://github.com/open-mmlab/cocoapi.git#subdirectory=pycocotools"
 pip install -v -e .  # or "python setup.py develop"
+python setup.py install
 ```
 
 If you build mmdetection on macOS, replace the last command with
