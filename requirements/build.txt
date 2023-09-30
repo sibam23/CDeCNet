@@ -2,3 +2,5 @@
 numpy
 torch>=1.3
 pycocotools
+pyaml
+adict
