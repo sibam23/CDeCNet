@@ -9,6 +9,8 @@ CDeC-Net: Composite Deformable Cascade Network for Table Detection in Document I
 Paper Link:
 [ieeexplore](https://ieeexplore.ieee.org/document/9411922) | [arXiv](https://arxiv.org/abs/2008.10831) | [Research Gate](https://www.researchgate.net/publication/343877463_CDeC-Net_Composite_Deformable_Cascade_Network_for_Table_Detection_in_Document_Images) | [CVIT, IIIT-H](http://cvit.iiit.ac.in/usodi/cdec-net.php)
 
+Report Link:
+
 
 ## Introduction
 CDeC-Net is an end-to-end network for detecting tables in document images. The network consists of a multistage extension of Mask R-CNN with a dual backbone having deformable convolution for detecting tables varying in scale with high detection accuracy at higher IoU threshold. CDeC-Net achieves state-of-the-art results on various publicly available benchmark datasets.
@@ -37,8 +39,8 @@ pip install torch==1.4.0 torchvision==0.5.0
 ```
 cd CDecNet/
 pip install -r requirements/build.txt
-pip install "git+https://github.com/open-mmlab/cocoapi.git#subdirectory=pycocotools"
 pip install -v -e .
+python setup.py install
 ```
 
 Please follow [install.md](docs/install.md) for detailed installation steps.
