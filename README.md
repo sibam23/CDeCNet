@@ -40,10 +40,9 @@ pip install torch==1.4.0 torchvision==0.5.0
 cd CDecNet/
 pip install -r requirements/build.txt
 pip install -v -e .
-python setup.py install
 ```
 
-Please follow [install.md](docs/install.md) for detailed installation steps.
+
 
 ## Training
 1. Create a folder 'dataset' in the CDeCNet and put your data into this folder. Your dataset must be in MS-Coco format. The directory structure should be:
